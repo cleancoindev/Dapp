@@ -97,4 +97,12 @@ contract MySite {
            verifiedSites[_id].time
            );
    } 
+
+   function getDevDetails() public view returns(string memory, string memory, string memory) {
+       return (
+           devs[msg.sender].name,
+           devs[msg.sender].url,
+           devs[msg.sender].mail
+       );
+   }
 }
