@@ -1,17 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <input type="text" placeholder="Enter URL.." id="url">
-        <input type="text" placeholder="Enter developer name.." id="dev">
-        <button id="getKey">Get Key</button>
+  <nav class="zone blue sticky">
+  	<ul class="main-nav">
+  		<li><a href="">About</a></li>
+  		<li><a href="">Products</a></li>
+  		<li><a href="">Our Team</a></li>
+  		<li class="push"><a href="">Contacts</a></li>
+  	</ul>
+  </nav>
+
+  <div class="container">
+  	<form id="regForm" action="">
+  <h1>Claim the ownership of your Website:</h1>
+  <!-- One "tab" for each step in the form: -->
+  <div class="tab">Instructions:
+    <p>
+      <ol>
+        <li>Condition abc........</li>
+        <li>Condition def........</li>
+      </ol>
+  </p>  
+  </div>
+
+  <div class="tab">Enter the URL:
+    <p><input placeholder="URL..." oninput="this.className = ''" name="url"></p>
+  </div>
+
+  <div class="tab">Here is your key:
+    <p>ABXYTSHGHJYTRHFHGFKYCHGCJ</p>
+  </div>
+
+  <div class="tab"><p>Hurray! Your website has been verified</p>
+  </div>
+
+  <div class="tab">Sorry! Please try again</p>
+  </div>
+
+  <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
     </div>
-    <script src="app.js"></script>
+  </div>
+
+  <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+</form>
+  </div>
+  <div class="zone blue grid-wrapper">
+  		<!-- <div class="box zone"><img src="./img/files_2.png"></div>
+  		<div class="box zone"><img src="./img/server_2_2.png"></div>
+  		<div class="box zone"><img src="./img/monitor_coding_2.png"></div>
+  		<div class="box zone"><img src="./img/server_3.png"></div>
+  		<div class="box zone"><img src="./img/data_storage_2_2.png"></div>
+  		<div class="box zone"><img src="./img/monitor_coding_2.png"></div>
+  		<div class="box zone"><img src="./img/desktop_analytics_2.png"></div>
+  		<div class="box zone"><img src="./img/server_safe_2.png"></div> -->
+  		<p>table of past transactions</p>
+  </div>
+  <footer class="zone yellow">Footer</footer>
+  <script type="text/javascript" src="script.js">
+	</script>
 </body>
 </html>
