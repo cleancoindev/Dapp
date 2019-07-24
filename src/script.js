@@ -94,5 +94,22 @@ function fixStepIndicator(n) {
 
   //... and adds the "active" class on the current step:
   x[n].className += " active";
-  
+
 }
+
+// Particle settings
+window.onload = function() {
+  Particles.init({
+    selector: '.background'
+  });
+};
+
+Particles.init({
+
+  // normal options
+  selector: '.background',
+  maxParticles: 70,
+  color: "#6b6363",
+  connectParticles: false
+
+});

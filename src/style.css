@@ -13,16 +13,15 @@ body{
     color:#000;
     font-size:1.3em;
     border-radius:4px;
-    border:1px solid #bbb;
     transition: all 0.3s linear;
 }
 
-.zone:hover {
+/* .zone:hover {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-}
+} */
 
 /*navigation*/
 
@@ -176,7 +175,20 @@ footer{
     text-align: center;
 }
 
-.transactions, .footer{
+span {
+  color: blueviolet;
+}
+
+.transactions {
     border: 2px solid black;
     border-radius: 5px;
+}
+
+/* Particle CSS */
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
