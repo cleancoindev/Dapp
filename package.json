@@ -1,0 +1,27 @@
+{
+  "name": "Dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manolingam/Dapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manolingam/Dapp/issues"
+  },
+  "homepage": "https://github.com/manolingam/Dapp#readme",
+  "dependencies": {
+    "lite-server": "^2.5.3"
+  }
+}
